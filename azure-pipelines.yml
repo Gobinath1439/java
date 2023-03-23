@@ -15,7 +15,7 @@ variables:
 steps:
 - task: UseJavaVersion@1
   inputs:
-    versionSpec: '11'
+    versionSpec: '8'
     addToPath: true
 
 - task: MavenAuthenticate@0
